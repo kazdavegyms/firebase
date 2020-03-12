@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "910615383611",
+    "firebase_url": "https://kazz-d4d0a.firebaseio.com",
+    "project_id": "kazz-d4d0a",
+    "storage_bucket": "kazz-d4d0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910615383611:android:a3048a85f984841d",
+        "android_client_info": {
+          "package_name": "mcq.kasun.acer.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910615383611-cm9hr154liftrvr9ikb6qg7l8urn7a4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mcq.kasun.acer.firebase",
+            "certificate_hash": "8702f0fe94d52764be5c3eac3e4a3ebfc20385d7"
+          }
+        },
+        {
+          "client_id": "910615383611-lskdi19hb267b5jsquefg3kic2vflkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDgY1kaX6pX7dhK3NN2Qp_y7jgo73vOy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910615383611-lskdi19hb267b5jsquefg3kic2vflkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

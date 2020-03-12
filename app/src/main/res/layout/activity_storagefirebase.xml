@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.firebase.my.example.acer.firebase.storagefirebase">
+
+    <FrameLayout
+        android:id="@+id/kas"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <Button
+        android:id="@+id/selectfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="selectfile"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:layout_below="@+id/selectfile"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:layout_below="@+id/textView"
+        android:id="@+id/editme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.facebook.com/login/"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:layout_below="@+id/editme"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uploade"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/fetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/selectfile"
+        android:layout_alignRight="@+id/selectfile"
+        android:layout_below="@+id/button3"
+        android:text="fetch" />
+
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/selectfile"
+        android:layout_alignRight="@+id/selectfile"
+        android:layout_below="@+id/fetch"
+        android:text="web" />
+
+
+</RelativeLayout>

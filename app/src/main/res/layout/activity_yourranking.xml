@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.firebase.my.example.acer.firebase.yourranking">
+
+    <Button
+        android:id="@+id/selectfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="selectfile"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/youuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/you"
+        android:text="your rank"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <FrameLayout
+        android:id="@+id/kas"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_above="@+id/navigation"
+
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/you"
+        android:layout_alignEnd="@+id/you"
+        android:layout_alignRight="@+id/you"
+        android:text="enter your user name"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="131dp"
+        android:id="@+id/usrnameedit" />
+
+    <FrameLayout
+        android:id="@+id/you"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/navigation"
+
+        />
+
+</RelativeLayout>

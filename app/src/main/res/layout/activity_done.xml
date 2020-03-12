@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/booksone"
+    tools:context="com.example.acer.firebase.my.example.acer.firebase.done">
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/btngrp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+
+
+        android:layout_marginTop="53dp"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/totalscorer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="score: 0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txttotalquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="passed: 0/30"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/donepbar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/trybtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/ripple_effect"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:theme="@style/Mybutton"
+            android:text="Wrong answers"
+            />
+
+        <Button style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/finish"
+            android:layout_margin="8dp"
+            android:background="@drawable/ripple_effect"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:theme="@style/Mybutton"
+            android:text="Finish"/>
+        <Button
+            android:id="@+id/answers"
+            android:onClick="browser1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/ripple_effect"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:theme="@style/Mybutton"
+            android:text="Answers"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+\
+
+
+</RelativeLayout>

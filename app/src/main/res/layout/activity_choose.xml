@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.firebase.my.example.acer.firebase.Choose"
+    android:background="@drawable/booksone"
+    >
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="4dp"
+       android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/transparent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pastpapers"
+                android:background="#4fc2ab92"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:theme="@style/Mybutton"
+                android:text="Past papers"
+                />
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/schoolpapers"
+                android:background="#89d2b699"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:theme="@style/Mybutton"
+                android:text="School papers"
+                />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/faviriotpapers"
+                android:background="#88e4c0a4"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:theme="@style/Mybutton"
+                android:text="favirout papers"
+                />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mypapers"
+                android:background="@drawable/ripple_effect"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:theme="@style/Mybutton"
+                android:text="my papers"
+                />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/answers"
+                android:background="#8bf2dab6"
+                android:layout_margin="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:theme="@style/Mybutton"
+                android:text="Answers"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>
